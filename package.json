@@ -5,14 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+    "start": "node index.js"
   },
-  
   "author": "DIF",
-  "license": "ISC"
-
-
-
-  
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
-
